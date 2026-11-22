@@ -1,0 +1,15 @@
+{
+ "type": "LEC2",
+ "params": [
+  {"name": "Active A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Peak A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mode A", "kind": "enum", "freq": false, "enum": ["COMP", "LIM"], "tag": "i"},
+  {"name": "Output Gain A", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Active B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Peak B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mode B", "kind": "enum", "freq": false, "enum": ["COMP", "LIM"], "tag": "i"},
+  {"name": "Output Gain B", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"}
+ ]
+}

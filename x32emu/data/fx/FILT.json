@@ -1,0 +1,19 @@
+{
+ "type": "FILT",
+ "params": [
+  {"name": "Speed", "kind": "log", "freq": false, "min": 0.05, "max": 20, "dec": 2, "steps": 151, "tag": "f"},
+  {"name": "Depth", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Resonance", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Base", "kind": "log", "freq": true, "min": 20, "max": 15000, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Mode", "kind": "enum", "freq": false, "enum": ["LP", "HP", "BP", "NO"], "tag": "i"},
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Wave", "kind": "enum", "freq": false, "enum": ["TRI", "SIN", "SAW", "SAW-", "RMP", "SQU", "RND"], "tag": "i"},
+  {"name": "Phase", "kind": "lin", "freq": false, "min": 0, "max": 180, "dec": 0, "steps": 37, "tag": "f"},
+  {"name": "Env. Modulation", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Attack", "kind": "log", "freq": false, "min": 10, "max": 250, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Release", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Drive", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Pole", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Side Chain", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

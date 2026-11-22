@@ -1,0 +1,12 @@
+{
+ "type": "FAC",
+ "params": [
+  {"name": "Active", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Gain", "kind": "lin", "freq": false, "min": -20, "max": 0, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Threshold", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Time", "kind": "lin", "freq": false, "min": 1, "max": 6, "dec": 0, "steps": 6, "tag": "f"},
+  {"name": "Bias", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Out Gain", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Balance", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"}
+ ]
+}

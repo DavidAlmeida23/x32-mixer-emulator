@@ -1,0 +1,16 @@
+{
+ "type": "CRS",
+ "params": [
+  {"name": "Speed", "kind": "log", "freq": false, "min": 0.05, "max": 5, "dec": 2, "steps": 101, "tag": "f"},
+  {"name": "Depth L", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Depth R", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Delay L", "kind": "log", "freq": false, "min": 0.5, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Delay R", "kind": "log", "freq": false, "min": 0.5, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Lo Cut", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 200, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Phase", "kind": "lin", "freq": false, "min": 0, "max": 180, "dec": 0, "steps": 37, "tag": "f"},
+  {"name": "Wave", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Spread", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"}
+ ]
+}

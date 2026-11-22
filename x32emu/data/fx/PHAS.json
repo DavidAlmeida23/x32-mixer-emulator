@@ -1,0 +1,17 @@
+{
+ "type": "PHAS",
+ "params": [
+  {"name": "Speed", "kind": "log", "freq": false, "min": 0.05, "max": 5, "dec": 2, "steps": 101, "tag": "f"},
+  {"name": "Depth", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Resonance", "kind": "lin", "freq": false, "min": 0, "max": 80, "dec": 0, "steps": 41, "tag": "f"},
+  {"name": "Base", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Stages", "kind": "lin", "freq": false, "min": 2, "max": 12, "dec": 0, "steps": 11, "tag": "f"},
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Wave", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Phase", "kind": "lin", "freq": false, "min": 0, "max": 180, "dec": 0, "steps": 37, "tag": "f"},
+  {"name": "Env. Modulation", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"},
+  {"name": "Attack", "kind": "log", "freq": false, "min": 10, "max": 1000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hold", "kind": "log", "freq": false, "min": 1, "max": 2000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Release", "kind": "log", "freq": false, "min": 10, "max": 1000, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

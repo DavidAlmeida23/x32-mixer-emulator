@@ -1,0 +1,18 @@
+{
+ "type": "FAC1M",
+ "params": [
+  {"name": "Active", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Gain M", "kind": "lin", "freq": false, "min": -20, "max": 0, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Threshold M", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Time M", "kind": "lin", "freq": false, "min": 1, "max": 6, "dec": 0, "steps": 6, "tag": "f"},
+  {"name": "Bias M", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Out Gain M", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Balance M", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"},
+  {"name": "Input Gain S", "kind": "lin", "freq": false, "min": -20, "max": 0, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Threshold S", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Time S", "kind": "lin", "freq": false, "min": 1, "max": 6, "dec": 0, "steps": 6, "tag": "f"},
+  {"name": "Bias S", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Out Gain S", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Balance S", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"}
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "type": "WAVD",
+ "params": [
+  {"name": "Attack A", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Sustain A", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Gain A", "kind": "lin", "freq": false, "min": -24, "max": 24, "dec": 1, "steps": 97, "tag": "f"},
+  {"name": "Attack B", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Sustain B", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Gain B", "kind": "lin", "freq": false, "min": -24, "max": 24, "dec": 1, "steps": 97, "tag": "f"}
+ ]
+}

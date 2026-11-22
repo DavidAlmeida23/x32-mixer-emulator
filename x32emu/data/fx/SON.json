@@ -1,0 +1,13 @@
+{
+ "type": "SON",
+ "params": [
+  {"name": "Active A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Lo Contour A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Process A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Gain A", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Active B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Lo Contour B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Process B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Gain B", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"}
+ ]
+}

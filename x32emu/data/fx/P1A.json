@@ -1,0 +1,16 @@
+{
+ "type": "P1A",
+ "params": [
+  {"name": "Active", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Boost", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Lo Freq", "kind": "enum", "freq": false, "enum": ["20", "30", "60", "100"], "tag": "i"},
+  {"name": "Lo Attenuation", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Width", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Boost", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Freq", "kind": "enum", "freq": false, "enum": ["3k", "4k", "5k", "8k", "10k", "12k", "16k"], "tag": "i"},
+  {"name": "Hi Attenuation", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Att Select", "kind": "enum", "freq": false, "enum": ["5k", "10k", "20k"], "tag": "i"},
+  {"name": "Transformer", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

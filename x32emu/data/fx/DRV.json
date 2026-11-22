@@ -1,0 +1,15 @@
+{
+ "type": "DRV",
+ "params": [
+  {"name": "Drive", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Even Har", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Odd Har", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Gain", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Cut", "kind": "log", "freq": false, "min": 20, "max": 200, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 4000, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Lo Gain", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Freq", "kind": "log", "freq": false, "min": 50, "max": 400, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Gain", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Hi Freq", "kind": "log", "freq": true, "min": 1000, "max": 10000, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

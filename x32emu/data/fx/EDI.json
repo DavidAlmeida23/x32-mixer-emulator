@@ -1,0 +1,13 @@
+{
+ "type": "EDI",
+ "params": [
+  {"name": "Active", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Mode", "kind": "enum", "freq": false, "enum": ["ST", "M/S"], "tag": "i"},
+  {"name": "Output Mode", "kind": "enum", "freq": false, "enum": ["ST", "M/S"], "tag": "i"},
+  {"name": "ST Spread", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "LMF Spread", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Balance", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Center Distance", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Out Gain", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"}
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "type": "FAC2",
+ "params": [
+  {"name": "Active A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Gain A", "kind": "lin", "freq": false, "min": -20, "max": 0, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Threshold A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Time A", "kind": "lin", "freq": false, "min": 1, "max": 6, "dec": 0, "steps": 6, "tag": "f"},
+  {"name": "Bias A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Out Gain A", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Balance A", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"},
+  {"name": "Active B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Gain B", "kind": "lin", "freq": false, "min": -20, "max": 0, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Threshold B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Time B", "kind": "lin", "freq": false, "min": 1, "max": 6, "dec": 0, "steps": 6, "tag": "f"},
+  {"name": "Bias B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Out Gain B", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Balance B", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"}
+ ]
+}

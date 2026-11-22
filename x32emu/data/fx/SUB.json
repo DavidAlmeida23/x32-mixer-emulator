@@ -1,0 +1,15 @@
+{
+ "type": "SUB",
+ "params": [
+  {"name": "Active A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Range A", "kind": "enum", "freq": false, "enum": ["LO", "MID", "HI"], "tag": "i"},
+  {"name": "Dry A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Octave-1 A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Octave-2 A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Active B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Range B", "kind": "enum", "freq": false, "enum": ["LO", "MID", "HI"], "tag": "i"},
+  {"name": "Dry B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Octave-1 B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Octave-2 B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

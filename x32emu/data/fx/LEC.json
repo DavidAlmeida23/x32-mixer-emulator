@@ -1,0 +1,10 @@
+{
+ "type": "LEC",
+ "params": [
+  {"name": "Active", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Peak", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mode", "kind": "enum", "freq": false, "enum": ["COMP", "LIM"], "tag": "i"},
+  {"name": "Output Gain", "kind": "lin", "freq": false, "min": -18, "max": 6, "dec": 1, "steps": 49, "tag": "f"}
+ ]
+}

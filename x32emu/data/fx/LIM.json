@@ -1,0 +1,13 @@
+{
+ "type": "LIM",
+ "params": [
+  {"name": "Input Gain", "kind": "lin", "freq": false, "min": 0, "max": 18, "dec": 1, "steps": 37, "tag": "f"},
+  {"name": "Output Gain", "kind": "lin", "freq": false, "min": -18, "max": 0, "dec": 1, "steps": 37, "tag": "f"},
+  {"name": "Squeeze", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Knee", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 0, "steps": 11, "tag": "f"},
+  {"name": "Attack", "kind": "log", "freq": false, "min": 0.05, "max": 1, "dec": 2, "steps": 51, "tag": "f"},
+  {"name": "Release", "kind": "log", "freq": false, "min": 20, "max": 2000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Stereo Link", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Auto Gain", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

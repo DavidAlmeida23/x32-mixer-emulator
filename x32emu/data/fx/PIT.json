@@ -1,0 +1,11 @@
+{
+ "type": "PIT",
+ "params": [
+  {"name": "SemiTone", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 0, "steps": 25, "tag": "f"},
+  {"name": "Cent", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Delay", "kind": "log", "freq": false, "min": 1, "max": 500, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Lo Cut", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 2000, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "type": "P1A2",
+ "params": [
+  {"name": "Active A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain A", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Boost A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Lo Freq A", "kind": "enum", "freq": false, "enum": ["20", "30", "60", "100"], "tag": "i"},
+  {"name": "Lo Attenuation A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Width A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Boost A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Freq A", "kind": "enum", "freq": false, "enum": ["3k", "4k", "5k", "8k", "10k", "12k", "16k"], "tag": "i"},
+  {"name": "Hi Attenuation A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Att Select A", "kind": "enum", "freq": false, "enum": ["5k", "10k", "20k"], "tag": "i"},
+  {"name": "Transformer A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Active B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain B", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Boost B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Lo Freq B", "kind": "enum", "freq": false, "enum": ["20", "30", "60", "100"], "tag": "i"},
+  {"name": "Lo Attenuation B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Width B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Boost B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Freq B", "kind": "enum", "freq": false, "enum": ["3k", "4k", "5k", "8k", "10k", "12k", "16k"], "tag": "i"},
+  {"name": "Hi Attenuation B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Att Select B", "kind": "enum", "freq": false, "enum": ["5k", "10k", "20k"], "tag": "i"},
+  {"name": "Transformer B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

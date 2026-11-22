@@ -1,0 +1,15 @@
+{
+ "type": "VREV",
+ "params": [
+  {"name": "Pre Delay", "kind": "lin", "freq": false, "min": 0, "max": 120, "dec": 0, "steps": 61, "tag": "f"},
+  {"name": "Decay", "kind": "lin", "freq": false, "min": 0.4, "max": 4.5, "dec": 1, "steps": 42, "tag": "f"},
+  {"name": "Modulate", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Vintage", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Position", "kind": "enum", "freq": false, "enum": ["FRONT", "REAR"], "tag": "i"},
+  {"name": "Level", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Cut", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 10000, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Lo Multiply", "kind": "log", "freq": false, "min": 0.5, "max": 2, "dec": 2, "steps": 51, "tag": "f"},
+  {"name": "Hi Multiply", "kind": "log", "freq": false, "min": 0.25, "max": 1, "dec": 2, "steps": 51, "tag": "f"}
+ ]
+}

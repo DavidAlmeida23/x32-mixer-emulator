@@ -1,0 +1,25 @@
+{
+ "type": "DRV2",
+ "params": [
+  {"name": "Drive A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Even Har A", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Odd Har A", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Gain A", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Cut A", "kind": "log", "freq": false, "min": 20, "max": 200, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut A", "kind": "log", "freq": true, "min": 4000, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Lo Gain A", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Freq A", "kind": "log", "freq": false, "min": 50, "max": 400, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Gain A", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Hi Freq A", "kind": "log", "freq": true, "min": 1000, "max": 10000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Drive B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Even Har B", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Odd Har B", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Gain B", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Cut B", "kind": "log", "freq": false, "min": 20, "max": 200, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut B", "kind": "log", "freq": true, "min": 4000, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Lo Gain B", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Freq B", "kind": "log", "freq": false, "min": 50, "max": 400, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Gain B", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Hi Freq B", "kind": "log", "freq": true, "min": 1000, "max": 10000, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

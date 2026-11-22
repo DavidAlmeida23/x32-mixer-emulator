@@ -1,0 +1,14 @@
+{
+ "type": "PQ5",
+ "params": [
+  {"name": "Active", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Freq", "kind": "enum", "freq": false, "enum": ["200", "300", "500", "700", "1000"], "tag": "i"},
+  {"name": "Lo Boost", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Mid Freq", "kind": "enum", "freq": false, "enum": ["200", "300", "500", "700", "1k", "1k5", "2k", "3k", "4k", "5k", "7k"], "tag": "i"},
+  {"name": "Mid Cut", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Freq", "kind": "enum", "freq": false, "enum": ["1k5", "2k", "3k", "4k", "5k"], "tag": "i"},
+  {"name": "Hi Boost", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Transformer", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

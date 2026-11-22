@@ -1,0 +1,11 @@
+{
+ "type": "ULC",
+ "params": [
+  {"name": "Active", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Gain", "kind": "lin", "freq": false, "min": -48, "max": 0, "dec": 0, "steps": 49, "tag": "f"},
+  {"name": "Out Gain", "kind": "lin", "freq": false, "min": -48, "max": 0, "dec": 0, "steps": 49, "tag": "f"},
+  {"name": "Attack", "kind": "lin", "freq": false, "min": 1, "max": 7, "dec": 1, "steps": 61, "tag": "f"},
+  {"name": "Release", "kind": "lin", "freq": false, "min": 1, "max": 7, "dec": 1, "steps": 61, "tag": "f"},
+  {"name": "Ratio", "kind": "enum", "freq": false, "enum": ["4", "8", "12", "20", "ALL"], "tag": "i"}
+ ]
+}

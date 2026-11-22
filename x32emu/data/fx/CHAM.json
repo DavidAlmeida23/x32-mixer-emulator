@@ -1,0 +1,21 @@
+{
+ "type": "CHAM",
+ "params": [
+  {"name": "Pre Delay", "kind": "lin", "freq": false, "min": 0, "max": 200, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Decay", "kind": "log", "freq": false, "min": 0.3, "max": 29, "dec": 2, "steps": 51, "tag": "f"},
+  {"name": "Size", "kind": "lin", "freq": false, "min": 4, "max": 76, "dec": 0, "steps": 37, "tag": "f"},
+  {"name": "Damping", "kind": "log", "freq": true, "min": 1000, "max": 20000, "dec": 1, "steps": 25, "tag": "f"},
+  {"name": "Diffuse", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 26, "tag": "f"},
+  {"name": "Level", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Cut", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 200, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Bass Multi", "kind": "log", "freq": false, "min": 0.25, "max": 4, "dec": 2, "steps": 53, "tag": "f"},
+  {"name": "Spread", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Shape", "kind": "lin", "freq": false, "min": 0, "max": 250, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Spin", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 21, "tag": "f"},
+  {"name": "Reflection L", "kind": "lin", "freq": false, "min": 0, "max": 500, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Reflection L", "kind": "lin", "freq": false, "min": 0, "max": 500, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Reflection Gain L", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Reflection Gain R", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

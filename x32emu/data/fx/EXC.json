@@ -1,0 +1,12 @@
+{
+ "type": "EXC",
+ "params": [
+  {"name": "Tune", "kind": "log", "freq": true, "min": 1000, "max": 10000, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Peak", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Zero Fill", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Timbre", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Harmonics", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Solo", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

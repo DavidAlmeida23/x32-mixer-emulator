@@ -1,0 +1,21 @@
+{
+ "type": "ENH2",
+ "params": [
+  {"name": "Out Gain A", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Bass Gain A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Bass Freq A", "kind": "lin", "freq": false, "min": 1, "max": 50, "dec": 0, "steps": 50, "tag": "f"},
+  {"name": "Mid Gain A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mid Q A", "kind": "lin", "freq": false, "min": 1, "max": 50, "dec": 0, "steps": 50, "tag": "f"},
+  {"name": "Hi Gain A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Freq A", "kind": "lin", "freq": false, "min": 1, "max": 50, "dec": 0, "steps": 50, "tag": "f"},
+  {"name": "Solo A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Out Gain B", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Bass Gain B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Bass Freq B", "kind": "lin", "freq": false, "min": 1, "max": 50, "dec": 0, "steps": 50, "tag": "f"},
+  {"name": "Mid Gain B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mid Q B", "kind": "lin", "freq": false, "min": 1, "max": 50, "dec": 0, "steps": 50, "tag": "f"},
+  {"name": "Hi Gain B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Freq B", "kind": "lin", "freq": false, "min": 1, "max": 50, "dec": 0, "steps": 50, "tag": "f"},
+  {"name": "Solo B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

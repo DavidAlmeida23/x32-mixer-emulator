@@ -1,0 +1,19 @@
+{
+ "type": "EXC2",
+ "params": [
+  {"name": "Tune A", "kind": "log", "freq": true, "min": 1000, "max": 10000, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Peak A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Zero Fill A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Timbre A", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Harmonics A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mix A", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Solo A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Tune B", "kind": "log", "freq": true, "min": 1000, "max": 10000, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Peak B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Zero Fill B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Timbre B", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Harmonics B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Mix B", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Solo B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

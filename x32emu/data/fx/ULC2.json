@@ -1,0 +1,17 @@
+{
+ "type": "ULC2",
+ "params": [
+  {"name": "Active A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Gain A", "kind": "lin", "freq": false, "min": -48, "max": 0, "dec": 0, "steps": 49, "tag": "f"},
+  {"name": "Out Gain A", "kind": "lin", "freq": false, "min": -48, "max": 0, "dec": 0, "steps": 49, "tag": "f"},
+  {"name": "Attack A", "kind": "lin", "freq": false, "min": 1, "max": 7, "dec": 1, "steps": 61, "tag": "f"},
+  {"name": "Release A", "kind": "lin", "freq": false, "min": 1, "max": 7, "dec": 1, "steps": 61, "tag": "f"},
+  {"name": "Ratio A", "kind": "enum", "freq": false, "enum": ["4", "8", "12", "20", "ALL"], "tag": "i"},
+  {"name": "Active B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Input Gain B", "kind": "lin", "freq": false, "min": -48, "max": 0, "dec": 0, "steps": 49, "tag": "f"},
+  {"name": "Out Gain B", "kind": "lin", "freq": false, "min": -48, "max": 0, "dec": 0, "steps": 49, "tag": "f"},
+  {"name": "Attack B", "kind": "lin", "freq": false, "min": 1, "max": 7, "dec": 1, "steps": 61, "tag": "f"},
+  {"name": "Release B", "kind": "lin", "freq": false, "min": 1, "max": 7, "dec": 1, "steps": 61, "tag": "f"},
+  {"name": "Ratio B", "kind": "enum", "freq": false, "enum": ["4", "8", "12", "20", "ALL"], "tag": "i"}
+ ]
+}

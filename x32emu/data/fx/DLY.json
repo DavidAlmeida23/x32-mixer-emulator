@@ -1,0 +1,17 @@
+{
+ "type": "DLY",
+ "params": [
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Time", "kind": "lin", "freq": false, "min": 1, "max": 3000, "dec": 0, "steps": 3000, "tag": "f"},
+  {"name": "Mode", "kind": "enum", "freq": false, "enum": ["ST", "X", "M"], "tag": "i"},
+  {"name": "Factor L", "kind": "enum", "freq": false, "enum": ["1/4", "3/8", "1/2", "2/3", "1", "4/3", "3/2", "2", "3"], "tag": "i"},
+  {"name": "Factor R", "kind": "enum", "freq": false, "enum": ["1/4", "3/8", "1/2", "2/3", "1", "4/3", "3/2", "2", "3"], "tag": "i"},
+  {"name": "Offset L/R", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 201, "tag": "f"},
+  {"name": "Lo Cut", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 200, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Feed Lo Cut", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Feed Left", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Feed Right", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Feed Hi Cut", "kind": "log", "freq": true, "min": 200, "max": 20000, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

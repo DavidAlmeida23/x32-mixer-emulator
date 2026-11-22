@@ -1,0 +1,13 @@
+{
+ "type": "ROTA",
+ "params": [
+  {"name": "Lo Speed", "kind": "log", "freq": false, "min": 0.1, "max": 4, "dec": 2, "steps": 101, "tag": "f"},
+  {"name": "Hi Speed", "kind": "log", "freq": false, "min": 2, "max": 10, "dec": 2, "steps": 101, "tag": "f"},
+  {"name": "Accelerate", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Distance", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Balance", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"},
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Stop", "kind": "enum", "freq": false, "enum": ["RUN", "STOP"], "tag": "i"},
+  {"name": "Speed", "kind": "enum", "freq": false, "enum": ["SLOW", "FAST"], "tag": "i"}
+ ]
+}

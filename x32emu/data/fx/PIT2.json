@@ -1,0 +1,17 @@
+{
+ "type": "PIT2",
+ "params": [
+  {"name": "SemiTone 1", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 0, "steps": 25, "tag": "f"},
+  {"name": "Cent 1", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Delay 1", "kind": "log", "freq": false, "min": 1, "max": 500, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Gain 1", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Pan 1", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"},
+  {"name": "Mix", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "SemiTone 2", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 0, "steps": 25, "tag": "f"},
+  {"name": "Cent 2", "kind": "lin", "freq": false, "min": -50, "max": 50, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Delay 2", "kind": "log", "freq": false, "min": 1, "max": 500, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Gain 2", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Pan 2", "kind": "lin", "freq": false, "min": -100, "max": 100, "dec": 0, "steps": 41, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 2000, "max": 20000, "dec": 0, "steps": 51, "tag": "f"}
+ ]
+}

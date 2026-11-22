@@ -1,0 +1,23 @@
+{
+ "type": "AMP2",
+ "params": [
+  {"name": "Preamp A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Buzz A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Punch A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Crunch A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Drive A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Level A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Low A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "High A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Cabinet A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Preamp B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Buzz B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Punch B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Crunch B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Drive B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Level B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Low B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "High B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 41, "tag": "f"},
+  {"name": "Cabinet B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

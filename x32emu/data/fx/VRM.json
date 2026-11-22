@@ -1,0 +1,18 @@
+{
+ "type": "VRM",
+ "params": [
+  {"name": "Reverb Delay", "kind": "lin", "freq": false, "min": 0, "max": 200, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Decay", "kind": "log", "freq": false, "min": 0.1, "max": 20, "dec": 2, "steps": 51, "tag": "f"},
+  {"name": "Size", "kind": "lin", "freq": false, "min": 2, "max": 100, "dec": 0, "steps": 50, "tag": "f"},
+  {"name": "Density", "kind": "lin", "freq": false, "min": 1, "max": 30, "dec": 0, "steps": 30, "tag": "f"},
+  {"name": "ER Level", "kind": "lin", "freq": false, "min": 0, "max": 100, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Level", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Multiply", "kind": "log", "freq": false, "min": 0.1, "max": 10, "dec": 2, "steps": 51, "tag": "f"},
+  {"name": "Hi Multiply", "kind": "log", "freq": false, "min": 0.1, "max": 10, "dec": 2, "steps": 51, "tag": "f"},
+  {"name": "Lo Cut", "kind": "log", "freq": false, "min": 10, "max": 500, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "Hi Cut", "kind": "log", "freq": true, "min": 200, "max": 20000, "dec": 0, "steps": 51, "tag": "f"},
+  {"name": "ER Left", "kind": "lin", "freq": false, "min": 0, "max": 200, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "ER Right", "kind": "lin", "freq": false, "min": 0, "max": 200, "dec": 0, "steps": 101, "tag": "f"},
+  {"name": "Freeze", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

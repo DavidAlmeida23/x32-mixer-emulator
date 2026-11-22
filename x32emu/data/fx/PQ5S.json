@@ -1,0 +1,23 @@
+{
+ "type": "PQ5S",
+ "params": [
+  {"name": "Active A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain A", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Freq A", "kind": "enum", "freq": false, "enum": ["200", "300", "500", "700", "1000"], "tag": "i"},
+  {"name": "Lo Boost A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Mid Freq A", "kind": "enum", "freq": false, "enum": ["200", "300", "500", "700", "1k", "1k5", "2k", "3k", "4k", "5k", "7k"], "tag": "i"},
+  {"name": "Mid Cut A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Freq A", "kind": "enum", "freq": false, "enum": ["1k5", "2k", "3k", "4k", "5k"], "tag": "i"},
+  {"name": "Hi Boost A", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Transformer A", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Active B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"},
+  {"name": "Gain B", "kind": "lin", "freq": false, "min": -12, "max": 12, "dec": 1, "steps": 49, "tag": "f"},
+  {"name": "Lo Freq B", "kind": "enum", "freq": false, "enum": ["200", "300", "500", "700", "1000"], "tag": "i"},
+  {"name": "Lo Boost B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Mid Freq B", "kind": "enum", "freq": false, "enum": ["200", "300", "500", "700", "1k", "1k5", "2k", "3k", "4k", "5k", "7k"], "tag": "i"},
+  {"name": "Mid Cut B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Hi Freq B", "kind": "enum", "freq": false, "enum": ["1k5", "2k", "3k", "4k", "5k"], "tag": "i"},
+  {"name": "Hi Boost B", "kind": "lin", "freq": false, "min": 0, "max": 10, "dec": 1, "steps": 101, "tag": "f"},
+  {"name": "Transformer B", "kind": "enum", "freq": false, "enum": ["OFF", "ON"], "tag": "i"}
+ ]
+}

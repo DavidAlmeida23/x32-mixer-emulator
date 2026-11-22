@@ -1,0 +1,11 @@
+{
+ "type": "DES",
+ "params": [
+  {"name": "Lo Band", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Hi Band", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Lo Band S", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Hi Band S", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Voice", "kind": "enum", "freq": false, "enum": ["FEM", "MALE"], "tag": "i"},
+  {"name": "Mode", "kind": "enum", "freq": false, "enum": ["ST", "MS"], "tag": "i"}
+ ]
+}

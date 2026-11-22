@@ -1,0 +1,11 @@
+{
+ "type": "DES2",
+ "params": [
+  {"name": "Lo Band A", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Hi Band A", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Lo Band B", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Hi Band B", "kind": "lin", "freq": false, "min": 0, "max": 50, "dec": 1, "steps": 51, "tag": "f"},
+  {"name": "Voice A", "kind": "enum", "freq": false, "enum": ["FEM", "MALE"], "tag": "i"},
+  {"name": "Voice B", "kind": "enum", "freq": false, "enum": ["FEM", "MALE"], "tag": "i"}
+ ]
+}
