@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.remember
+graphify-out
+
+x32_state/
+capture_*/
+*.tmp
+tools/fx_divergences.json

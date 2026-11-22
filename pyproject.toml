@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x32-mixer-emulator"
+version = "0.1.0"
+description = "Behringer X32 emulator (OSC/UDP) in Python, with level simulation"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+requires-python = ">=3.10"
+
+[project.scripts]
+x32emu = "x32emu.__main__:main"
+x32emu-capture = "x32emu.capture:main"
+
+[tool.setuptools]
+packages = ["x32emu"]
+
+[tool.setuptools.package-data]
+x32emu = ["data/*.json", "data/params/*.json", "data/fx/*.json"]
