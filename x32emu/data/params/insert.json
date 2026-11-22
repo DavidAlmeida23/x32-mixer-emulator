@@ -1,0 +1,11 @@
+{
+ "section": "/insert",
+ "params": [
+  {"addr": "/insert/aux/1", "type": "I32", "node": false, "enum": null},
+  {"addr": "/insert/aux/2", "type": "I32", "node": false, "enum": null},
+  {"addr": "/insert/aux/3", "type": "I32", "node": false, "enum": null},
+  {"addr": "/insert/aux/4", "type": "I32", "node": false, "enum": null},
+  {"addr": "/insert/aux/5", "type": "I32", "node": false, "enum": null},
+  {"addr": "/insert/aux/6", "type": "I32", "node": false, "enum": null}
+ ]
+}

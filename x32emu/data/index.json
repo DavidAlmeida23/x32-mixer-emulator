@@ -1,0 +1,23 @@
+[
+ {"prefix": "/config", "file": "params/config.json"},
+ {"prefix": "/main", "file": "params/main.json"},
+ {"prefix": "/ch", "file": "params/ch.json"},
+ {"prefix": "/auxin", "file": "params/auxin.json"},
+ {"prefix": "/fxrtn", "file": "params/fxrtn.json"},
+ {"prefix": "/bus", "file": "params/bus.json"},
+ {"prefix": "/mtx", "file": "params/mtx.json"},
+ {"prefix": "/dca", "file": "params/dca.json"},
+ {"prefix": "/fx", "file": "params/fx.json"},
+ {"prefix": "/outputs", "file": "params/outputs.json"},
+ {"prefix": "/headamp", "file": "params/headamp.json"},
+ {"prefix": "/-prefs", "file": "params/prefs.json"},
+ {"prefix": "/-stat", "file": "params/stat.json"},
+ {"prefix": "/-action", "file": "params/action.json"},
+ {"prefix": "/-urec", "file": "params/urec.json"},
+ {"prefix": "/-usb", "file": "params/usb.json"},
+ {"prefix": "/undo", "file": "params/undo.json"},
+ {"prefix": "/insert", "file": "params/insert.json"},
+ {"prefix": "/-ha", "file": "params/ha.json"},
+ {"prefix": "/-show", "file": "params/show.json"},
+ {"prefix": "/-libs", "file": "params/libs.json"}
+]

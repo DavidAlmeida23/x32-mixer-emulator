@@ -1,0 +1,33 @@
+{
+ "section": "/-action",
+ "params": [
+  {"addr": "/-action", "type": "ACTION", "node": true, "enum": null},
+  {"addr": "/-action/setip", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/setclock", "type": "S32", "node": false, "enum": null},
+  {"addr": "/-action/initall", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/initlib", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/initshow", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/savestate", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/undopt", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/doundo", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/platrack", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/newscreen", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/clearsolo", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/setprebus", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/setsrate", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/setrtasrc", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/recselect", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/gocue", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/goscene", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/gosnippet", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/selsession", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/delsession", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/selmarker", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/delmarker", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/savemarker", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/addmarker", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/selposition", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/clearalert", "type": "I32", "node": false, "enum": null},
+  {"addr": "/-action/formatcard", "type": "I32", "node": false, "enum": null}
+ ]
+}
